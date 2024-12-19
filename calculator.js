@@ -69,23 +69,36 @@ let result = 0;
 equal.addEventListener('click', extractString);
 
 function extractString(){
+    let indexOfOperator = 0;
     expressionHolder = display.value;
     for( i = 0; i < expressionHolder.length; i ++){
-        if(!isNaN(expressionHolder.charAt(i))){
-            firstNumber += expressionHolder.charAt(i)
-        }
-        else if(isNaN(expressionHolder.charAt(i))){
+        if(isNaN(expressionHolder.charAt(i))){
             operator = expressionHolder.charAt(i);
+            indexOfOperator = i;
         }
 
     }
-    secondNumber = expressionHolder.substring((expressionHolder.indexOf(operator)) +1)
+    firstNumber = expressionHolder.slice(0, indexOfOperator );
+    secondNumber = expressionHolder.substring(indexOfOperator +1);
     
 
-    // if(operator === '+'){
-    //     result = Number(firstNumber) + Number(secondNumber);
-    // }
-    display.value = firstNumber;
+    if(operator == '+'){
+        result = Number(firstNumber) + Number(secondNumber);
+    }
+    
+    else if(operator == '-'){
+        result = Number(firstNumber) - Number(secondNumber);
+    }
+
+    else if(operator == '*'){
+        result = Number(firstNumber) * Number(secondNumber);
+    }
+
+    else if(operator == '/'){
+        result = Number(firstNumber) / Number(secondNumber);
+    }
+    firstNumber = result;
+    display.value = result;
 }
 
 
