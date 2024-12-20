@@ -1,70 +1,53 @@
 *{
     color: white;
-    font-size: 2erm;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     margin: 0;
     padding: 0;
+    background-color: rgb(1, 1, 49);
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 body{
-    background-color: rgb(1, 1, 58);
-    box-sizing: border-box;
     height: 100vh;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
 }
 .mainDiv{
-    background-color: inherit;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex: auto;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    min-width: 5px;
-    height: 100vh;
 }
 input{
-    background-color: rgb(1, 1, 65);
-    width: 300px;
-    height: 100px;
+    height: 50vh;
+    width: 100vw;
+    margin: 40px;
     border: none;
-    border-radius: 10px;
     padding: 10px;
-    font-size:xx-large;
-    overflow: scroll;
-    flex: auto;
-    flex-grow: 1;
     text-align: right;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 59);
 }
 .btnsDiv{
+    height: 50vh;
+    width: 100vw;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    border-radius: 10px;
-    height: max-content;
     flex-wrap: wrap;
-    flex: auto;
-    flex-grow: 1;
-    margin:10px;
-    margin-top: 30px;
 }
 button{
-    height: 40px;
-    width: 80px;
-    margin: 10px;
-    flex: auto;
-    flex-grow: 1;
-    background-color: aliceblue;
+    height: 10vh;
+    width: 20vw;
+    border: solid darkorange 3px;
     border-radius: 10px;
-    border: solid rgb(255, 140, 0) 3px;
+    margin: 10px;
+    background-color: white;
     color: black;
     font-size: x-large;
-    font-weight: bold;
-    
-}
 
+
+}
