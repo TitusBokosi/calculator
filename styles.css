@@ -29,7 +29,7 @@ button{
     flex: auto;
     align-items: center;
     align-content: center;
-    width: 400px;
+    width: auto;
     flex-wrap: wrap;
     background-color: rgb(2, 2, 54);
 }
@@ -61,4 +61,5 @@ input{
     align-items: center;
     justify-self: flex-end;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
