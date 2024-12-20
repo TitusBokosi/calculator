@@ -22,7 +22,8 @@ body{
     align-items: center;
     flex: auto;
     flex-wrap: wrap;
-    min-width: 5px
+    min-width: 5px;
+    height: 100%;
 }
 input{
     background-color: rgb(1, 1, 65);
