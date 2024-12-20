@@ -3,6 +3,7 @@ const display = document.createElement('input');
 calculator.appendChild(display);
 const btnsDiv = document.createElement('div');
 calculator.appendChild(btnsDiv);
+btnsDiv.className ='btnsDiv';
 const one = document.createElement('button');
 btnsDiv.appendChild(one);
 const two = document.createElement('button');

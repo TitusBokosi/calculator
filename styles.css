@@ -25,14 +25,13 @@ button{
 .mainDiv{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     flex: auto;
     align-items: center;
     align-content: center;
     width: 400px;
     flex-wrap: wrap;
     background-color: rgb(2, 2, 54);
-    height:fit-content
 }
 /* .display{
     min-width: 300px;
@@ -48,8 +47,18 @@ button{
 } */
 
 input{
-    margin: 60px;
+    margin: 20px;
+    color: white;
+    background-color: inherit;
     min-width: 380px;
     border: none;
     min-height: 70px;
+    justify-self: flex-start;
+}
+.btnsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    flex-wrap: wrap;
 }
