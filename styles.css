@@ -20,13 +20,14 @@ button{
     margin: 10px;
     min-width: 80px;
     min-height: 50px;
+    flex-grow: 1;
     border: solid darkorange 3px;
 }
 .mainDiv{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex: auto;
+    flex-grow: 1;
     align-items: center;
     align-content: center;
     width: auto;
