@@ -25,7 +25,7 @@ button{
 .mainDiv{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: auto;
     align-items: center;
     align-content: center;
@@ -61,5 +61,5 @@ input{
     align-items: center;
     justify-self: flex-end;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    
 }
